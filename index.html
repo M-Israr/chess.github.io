@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Board</title>
+    <style>
+        body{
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h1{
+            font-size: 30px;
+            margin-bottom: 5px;
+            transition: 0.6s ease;
+           
+        }
+        h1:hover{
+            text-shadow: 1px 1px 3px red;
+            cursor: pointer;
+        }
+        .container{
+            border: 2px solid black;
+            width: 560px;
+            height: 560px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 15px;
+            
+        }
+        .container div{
+            width: 70px;
+            height: 70px;
+            width: calc(100%/8);
+            font-size: 50px;
+            text-align: center;
+            text-shadow: 2px 1px white;
+            transition: transform 0.3s ease;
+
+        }
+        .container div:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        .white{
+            background-color: white;
+        }
+        .black{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chess Board</h1>
+    <div class="container">
+        <div class="white">&#9820;</div> <!-- Unicode for black rook -->
+        <div class="black">&#9822;</div> <!-- Unicode for black knight -->
+        <div class="white">&#9821;</div> <!-- Unicode for black bishop -->
+        <div class="black">&#9819;</div> <!-- Unicode for black queen -->
+        <div class="white">&#9818;</div> <!-- Unicode for black king -->
+        <div class="black">&#9821;</div> <!-- Unicode for black bishop -->
+        <div class="white">&#9822;</div> <!-- Unicode for black knight -->
+        <div class="black">&#9820;</div> <!-- Unicode for black rook -->
+
+        <div class="black">&#9823;</div> <!-- Unicode for black pawn -->
+        <div class="white">&#9823;</div> <!-- Unicode for black pawn -->
+        <div class="black">&#9823;</div> <!-- Unicode for black pawn -->
+        <div class="white">&#9823;</div> <!-- Unicode for black pawn -->
+        <div class="black">&#9823;</div> <!-- Unicode for black pawn -->
+        <div class="white">&#9823;</div> <!-- Unicode for black pawn -->
+        <div class="black">&#9823;</div> <!-- Unicode for black pawn -->
+        <div class="white">&#9823;</div> <!-- Unicode for black pawn -->
+
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+
+        <div class="white">&#9817;</div> <!-- Unicode for White Pawn -->
+        <div class="black">&#9817;</div> <!-- Unicode for White Pawn -->
+        <div class="white">&#9817;</div> <!-- Unicode for White Pawn -->
+        <div class="black">&#9817;</div> <!-- Unicode for White Pawn -->
+        <div class="white">&#9817;</div> <!-- Unicode for White Pawn -->
+        <div class="black">&#9817;</div> <!-- Unicode for White Pawn -->
+        <div class="white">&#9817;</div> <!-- Unicode for White Pawn -->
+        <div class="black">&#9817;</div> <!-- Unicode for White Pawn -->
+
+        <div class="black">&#9814;</div> <!-- Unicode for white rook -->
+        <div class="white">&#9816;</div> <!-- Unicode for white knight -->
+        <div class="black">&#9815;</div> <!-- Unicode for white bishop -->
+        <div class="white">&#9813;</div> <!-- Unicode for white queen -->
+        <div class="black">&#9812;</div> <!-- Unicode for white king -->
+        <div class="white">&#9815;</div> <!-- Unicode for white bishop -->
+        <div class="black">&#9816;</div> <!-- Unicode for white knight -->
+        <div class="white">&#9814;</div> <!-- Unicode for white rook -->
+    </div>
+</body>
+</html>
